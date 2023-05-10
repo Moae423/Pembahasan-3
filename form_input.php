@@ -64,18 +64,18 @@
                     <label for="hobby">Hobi</label>
                 </td>
                 <td>
-                    <input type="checkbox" name="hobby" id="sepakbola" />
+                    <input type="checkbox" name="hobby[]" value="sepakbola" />
                     <label for="sepakbola">SepakBola</label>
-                    <input type="checkbox" name="Coding" id="coding" />
+                    <input type="checkbox" name="hobby[]" value="coding" />
                     <label for="coding">Coding</label>
-                    <input type="checkbox" name="valorant" id="valorant" />
+                    <input type="checkbox" name="hobby[]" value="valorant" />
                     <label for="valorant">Valorant</label>
                     <br />
-                    <input type="checkbox" name="madrid" id="hobby" />
+                    <input type="checkbox" name="hobby[]" value="madrid" />
                     <label for="Madrid">Madrid</label>
-                    <input type="checkbox" name="madrid" id="hobby" />
+                    <input type="checkbox" name="hobby[]" value="madrid" />
                     <label for="Madrid">Madrid</label>
-                    <input type="checkbox" name="madrid" id="hobby" />
+                    <input type="checkbox" name="hobby[]" value="madrid" />
                     <label for="Madrid">Madrid</label>
                 </td>
             </tr>

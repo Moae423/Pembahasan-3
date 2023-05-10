@@ -51,10 +51,21 @@
             <td>:</td>
             <td>
                 <?php
-                $count = count($_POST['hobby']);
-                for ($i = 0; $i < $count; $i++) {
-                    echo $_POST['hobby'][$i] . "";
+                if (isset($_POST['submit'])) {
+
+                    $hobi = $_POST['hobby'];
+                    echo "<br>";
+                    for ($i = 0; $i < count($hobi); $i++) {
+                        echo $hobi[$i] . "<br>";
+                    }
                 }
+                // if (isset($_POST['hobby'])) {
+                //     $count = $_POST['hobby'];
+                //     for ($i = 0; $i < count($count); $i++) {
+                //         echo $_POST['hobby'][$i] . "";
+                //     }
+                // }
+                
                 ?>
             </td>
         </tr>
